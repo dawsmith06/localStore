@@ -39,7 +39,7 @@ if(localStore.has("color") && localStore.hasProperty("color","id")){
 ```javascript
 localStore.remove("color")
 ```
-#### for defaults data declare the global variable (schemas)
+#### For defaults data declare the global variable (schemas)
 ```javascript
 window.schemas = {
     "dog" : {id:1,name:"Poppy"}
@@ -47,6 +47,9 @@ window.schemas = {
 let dog = localStore.get("dog");
 console.log(dog);
 ```
+## Note
+All data is saved base64 encoded 
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 

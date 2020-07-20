@@ -1,14 +1,15 @@
 {
   "name": "dw-localstore",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "My way to use localstorage",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "localstore",
     "localstorage",
-    "on-localstorage-changed",
+    "on-localstorage-change",
     "storage"
   ],
   "repository": {
