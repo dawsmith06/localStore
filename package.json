@@ -1,6 +1,6 @@
 {
-  "name": "localstore",
-  "version": "0.0.1",
+  "name": "dw-localstore",
+  "version": "0.0.4",
   "description": "My way to use localstorage",
   "main": "index.js",
   "scripts": {
