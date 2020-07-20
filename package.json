@@ -1,0 +1,20 @@
+{
+  "name": "localstore",
+  "version": "0.0.1",
+  "description": "My way to use localstorage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "localstorage",
+    "on-localstorage-changed",
+    "storage"
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/dawsmith06/localstore"
+  },
+  "author": "Darwin Rosso",
+  "license": "MIT"
+}
