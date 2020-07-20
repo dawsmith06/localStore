@@ -23,19 +23,18 @@ localStore.update("color",{
    description:"My favorite color"
 });
 ```
-#### Use has and hasProperty methods for validations
-```javascript
-if(localStore.has("color") && localStore.hasProperty("color","id")){
-    console.log("valid color");
-}
-```
 #### Listen for changes
 ```javascript
 localStore.subscribe("color",(data)=>{
     console.log("color key has changed",data);
 })
 ```
-
+#### Use has and hasProperty methods for validations
+```javascript
+if(localStore.has("color") && localStore.hasProperty("color","id")){
+    console.log("valid color");
+}
+```
 #### Remove a key
 ```javascript
 localStore.remove("color")
